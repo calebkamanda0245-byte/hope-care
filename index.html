@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HopeCare</title>
     <link rel="icon" type="image/png" href="logo.png">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #EAF4FA;
+            background: #ffffff;
+        }
+
+        .navigation a {
+            display: inline-block;
+            padding: 10px 15px;
+            border-radius: 7px;
+            color: black;
+            font-size: 13px;
+            font-weight: bold;
+            text-decoration: none;
+            position: relative;
+            right: 600px;     
+            
+
+        }
+
+        .navigation a:hover,
+        .navigation .selected {
+            color: white;
+            background: #0878B9;
+        }
+
+        .header,
+        .brand,
+        .products-title,
+        .footer {
+            /* display: flex;
+            align-items: center;
+            justify-content: space-between; */
+        }
+
+        .header {
+            width: 100%;
+            height: 500px;
+            background: honeydew;
+            height: 70px;
+
+        }
+
+        .brand {
+            justify-content: flex-start;
+            gap: 10px;
+            height: 20px;
+            width: 20px;
+        }
+
+        .brand img {
+            width: 90px;
+            height: 47px;
+                 left:  600px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="brand">
+            <span class="icon"><img src="logo.png" alt="Cart"></span>
+        </div>
+
+        <nav class="navigation">
+            <ul>
+                <a href="#" class="selected">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">SERVICE</a>
+                <a href="#">CONTACT</a>
+            </ul>
+        </nav>
+
+    </header>
 </body>
+<img src="banner.png">
 </html>
